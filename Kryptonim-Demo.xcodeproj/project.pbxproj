@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E923E6A22C04986800FB5AD0 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E923E6A12C04986800FB5AD0 /* SafariView.swift */; };
+		E972515A2BFB632500B25E0E /* Kryptonim_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97251592BFB632500B25E0E /* Kryptonim_DemoApp.swift */; };
+		E972515C2BFB632500B25E0E /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972515B2BFB632500B25E0E /* DemoView.swift */; };
+		E972515E2BFB632700B25E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E972515D2BFB632700B25E0E /* Assets.xcassets */; };
+		E97251612BFB632700B25E0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97251602BFB632700B25E0E /* Preview Assets.xcassets */; };
+		E97251892BFB65CC00B25E0E /* Kryptonim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97251882BFB65CC00B25E0E /* Kryptonim.swift */; };
+		E9BD69AE2C2172C60005EBE1 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD69AD2C2172C60005EBE1 /* Array+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E97251672BFB632700B25E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E972514E2BFB632500B25E0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97251552BFB632500B25E0E;
+			remoteInfo = "Kryptonim-Demo";
+		};
+		E97251712BFB632700B25E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E972514E2BFB632500B25E0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97251552BFB632500B25E0E;
+			remoteInfo = "Kryptonim-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E923E6A12C04986800FB5AD0 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		E923E6AB2C17348600FB5AD0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E97251562BFB632500B25E0E /* Kryptonim-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kryptonim-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97251592BFB632500B25E0E /* Kryptonim_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kryptonim_DemoApp.swift; sourceTree = "<group>"; };
+		E972515B2BFB632500B25E0E /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		E972515D2BFB632700B25E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E97251602BFB632700B25E0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E97251662BFB632700B25E0E /* Kryptonim-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kryptonim-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97251702BFB632700B25E0E /* Kryptonim-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kryptonim-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97251832BFB638A00B25E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E97251882BFB65CC00B25E0E /* Kryptonim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kryptonim.swift; sourceTree = "<group>"; };
+		E9BD69AD2C2172C60005EBE1 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97251532BFB632500B25E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97251632BFB632700B25E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972516D2BFB632700B25E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E972514D2BFB632500B25E0E = {
+			isa = PBXGroup;
+			children = (
+				E923E6AB2C17348600FB5AD0 /* README.md */,
+				E97251582BFB632500B25E0E /* Kryptonim-Demo */,
+				E97251572BFB632500B25E0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E97251572BFB632500B25E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97251562BFB632500B25E0E /* Kryptonim-Demo.app */,
+				E97251662BFB632700B25E0E /* Kryptonim-DemoTests.xctest */,
+				E97251702BFB632700B25E0E /* Kryptonim-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97251582BFB632500B25E0E /* Kryptonim-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E97251882BFB65CC00B25E0E /* Kryptonim.swift */,
+				E97251592BFB632500B25E0E /* Kryptonim_DemoApp.swift */,
+				E972515B2BFB632500B25E0E /* DemoView.swift */,
+				E972515D2BFB632700B25E0E /* Assets.xcassets */,
+				E923E6A12C04986800FB5AD0 /* SafariView.swift */,
+				E97251832BFB638A00B25E0E /* Info.plist */,
+				E972515F2BFB632700B25E0E /* Preview Content */,
+				E9BD69AD2C2172C60005EBE1 /* Array+Extension.swift */,
+			);
+			path = "Kryptonim-Demo";
+			sourceTree = "<group>";
+		};
+		E972515F2BFB632700B25E0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E97251602BFB632700B25E0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97251552BFB632500B25E0E /* Kryptonim-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E972517A2BFB632700B25E0E /* Build configuration list for PBXNativeTarget "Kryptonim-Demo" */;
+			buildPhases = (
+				E97251522BFB632500B25E0E /* Sources */,
+				E97251532BFB632500B25E0E /* Frameworks */,
+				E97251542BFB632500B25E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kryptonim-Demo";
+			productName = "Kryptonim-Demo";
+			productReference = E97251562BFB632500B25E0E /* Kryptonim-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E97251652BFB632700B25E0E /* Kryptonim-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E972517D2BFB632700B25E0E /* Build configuration list for PBXNativeTarget "Kryptonim-DemoTests" */;
+			buildPhases = (
+				E97251622BFB632700B25E0E /* Sources */,
+				E97251632BFB632700B25E0E /* Frameworks */,
+				E97251642BFB632700B25E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97251682BFB632700B25E0E /* PBXTargetDependency */,
+			);
+			name = "Kryptonim-DemoTests";
+			productName = "Kryptonim-DemoTests";
+			productReference = E97251662BFB632700B25E0E /* Kryptonim-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E972516F2BFB632700B25E0E /* Kryptonim-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97251802BFB632700B25E0E /* Build configuration list for PBXNativeTarget "Kryptonim-DemoUITests" */;
+			buildPhases = (
+				E972516C2BFB632700B25E0E /* Sources */,
+				E972516D2BFB632700B25E0E /* Frameworks */,
+				E972516E2BFB632700B25E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97251722BFB632700B25E0E /* PBXTargetDependency */,
+			);
+			name = "Kryptonim-DemoUITests";
+			productName = "Kryptonim-DemoUITests";
+			productReference = E97251702BFB632700B25E0E /* Kryptonim-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E972514E2BFB632500B25E0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E97251552BFB632500B25E0E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E97251652BFB632700B25E0E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E97251552BFB632500B25E0E;
+					};
+					E972516F2BFB632700B25E0E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E97251552BFB632500B25E0E;
+					};
+				};
+			};
+			buildConfigurationList = E97251512BFB632500B25E0E /* Build configuration list for PBXProject "Kryptonim-Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E972514D2BFB632500B25E0E;
+			productRefGroup = E97251572BFB632500B25E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97251552BFB632500B25E0E /* Kryptonim-Demo */,
+				E97251652BFB632700B25E0E /* Kryptonim-DemoTests */,
+				E972516F2BFB632700B25E0E /* Kryptonim-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97251542BFB632500B25E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97251612BFB632700B25E0E /* Preview Assets.xcassets in Resources */,
+				E972515E2BFB632700B25E0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97251642BFB632700B25E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972516E2BFB632700B25E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97251522BFB632500B25E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97251892BFB65CC00B25E0E /* Kryptonim.swift in Sources */,
+				E9BD69AE2C2172C60005EBE1 /* Array+Extension.swift in Sources */,
+				E972515C2BFB632500B25E0E /* DemoView.swift in Sources */,
+				E972515A2BFB632500B25E0E /* Kryptonim_DemoApp.swift in Sources */,
+				E923E6A22C04986800FB5AD0 /* SafariView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97251622BFB632700B25E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E972516C2BFB632700B25E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E97251682BFB632700B25E0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97251552BFB632500B25E0E /* Kryptonim-Demo */;
+			targetProxy = E97251672BFB632700B25E0E /* PBXContainerItemProxy */;
+		};
+		E97251722BFB632700B25E0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97251552BFB632500B25E0E /* Kryptonim-Demo */;
+			targetProxy = E97251712BFB632700B25E0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E97251782BFB632700B25E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E97251792BFB632700B25E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E972517B2BFB632700B25E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kryptonim-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = P7WT399S58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kryptonim-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daftgrowth.Kryptonim-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E972517C2BFB632700B25E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kryptonim-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = P7WT399S58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kryptonim-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daftgrowth.Kryptonim-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E972517E2BFB632700B25E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7WT399S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daftgrowth.Kryptonim-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kryptonim-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kryptonim-Demo";
+			};
+			name = Debug;
+		};
+		E972517F2BFB632700B25E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7WT399S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daftgrowth.Kryptonim-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kryptonim-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kryptonim-Demo";
+			};
+			name = Release;
+		};
+		E97251812BFB632700B25E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7WT399S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daftgrowth.Kryptonim-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kryptonim-Demo";
+			};
+			name = Debug;
+		};
+		E97251822BFB632700B25E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7WT399S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daftgrowth.Kryptonim-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kryptonim-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97251512BFB632500B25E0E /* Build configuration list for PBXProject "Kryptonim-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97251782BFB632700B25E0E /* Debug */,
+				E97251792BFB632700B25E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E972517A2BFB632700B25E0E /* Build configuration list for PBXNativeTarget "Kryptonim-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E972517B2BFB632700B25E0E /* Debug */,
+				E972517C2BFB632700B25E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E972517D2BFB632700B25E0E /* Build configuration list for PBXNativeTarget "Kryptonim-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E972517E2BFB632700B25E0E /* Debug */,
+				E972517F2BFB632700B25E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97251802BFB632700B25E0E /* Build configuration list for PBXNativeTarget "Kryptonim-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97251812BFB632700B25E0E /* Debug */,
+				E97251822BFB632700B25E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E972514E2BFB632500B25E0E /* Project object */;
+}
